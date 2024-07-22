@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    filter: brightness(100%);
+    /* filter: brightness(100%); */
     background-image: url(bg.png);
     height: 100vh;
     background-size: cover;
@@ -23,8 +23,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #482BE7;
-    opacity: .2;
+    background-color: #170869;
+    opacity: .5;
 }
 
 .nav-bar {
@@ -42,7 +42,8 @@ body {
 }
 
 .nav-bar :first-child {
-    color: gray;
+    color: white;
+    opacity: 0.4;
 }
 
 .center-container {
